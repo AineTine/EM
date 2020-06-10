@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>cn.tineaine.EM</id>
+    <name>Laura</name>
+    <vendor email="Tsos201@outlook.com" url="http://www.tineaine.cn">TineAine</vendor>
+
+    <description><![CDATA[
+    您可以轻松使用laura插件中的各种增强功能，界面全中文，使用简单，永久免费<br>
+    <em>目前已集成：在线搜索、在线翻译功能，其他功能即将添加</em>
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+
+        <!-- 翻译插件 -->
+        <action id="ET.EnglishTeacherAction" class="EnglishTeacherAction" text="译为中文" description="翻译插件">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <add-to-group group-id="ConsoleView.PopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl H" second-keystroke="T"/>
+        </action>
+
+        <!-- 搜索插件 -->
+        <action id="ES.EsaySearch" class="EsaySearchAction" text="百度搜索">
+            <add-to-group group-id="ConsoleView.PopupMenu" anchor="first"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl H" second-keystroke="B"/>
+        </action>
+
+        <action id="TA.TineAine" class="TineAine" text="在Debug库中查找" description="从博客中查询">
+            <add-to-group group-id="ConsoleView.PopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl H" second-keystroke="Q"/>
+        </action>
+    </actions>
+</idea-plugin>

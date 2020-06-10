@@ -1,0 +1,72 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SearchWeb">
+        <ActionSummary times="2" last="1591751553385" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="2" last="1591689618971" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="2" last="1591689618163" />
+      </entry>
+      <entry key="ES.EsaySearch">
+        <ActionSummary times="12" last="1591751537781" />
+      </entry>
+      <entry key="ET.EnglishTeacherAction">
+        <ActionSummary times="49" last="1591751531927" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="8" last="1591751477520" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="2" last="1591751478834" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="1" last="1591682542758" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="1" last="1591689151573" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="4" last="1591751469130" />
+      </entry>
+      <entry key="Generate">
+        <ActionSummary times="8" last="1591682564109" />
+      </entry>
+      <entry key="GenerateCopyright">
+        <ActionSummary times="2" last="1591682558614" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="2" last="1591702973154" />
+      </entry>
+      <entry key="HippieCompletion">
+        <ActionSummary times="1" last="1591751472174" />
+      </entry>
+      <entry key="NewClass">
+        <ActionSummary times="1" last="1591672549051" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="4" last="1591752755337" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="11" last="1591751482209" />
+      </entry>
+      <entry key="TA.TineAine">
+        <ActionSummary times="1" last="1591752619006" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="1" last="1591672456783" />
+      </entry>
+      <entry key="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+        <ActionSummary times="1" last="1591751486564" />
+      </entry>
+      <entry key="com.intellij.openapi.ui.DialogWrapper$5">
+        <ActionSummary times="8" last="1591683280101" />
+      </entry>
+      <entry key="index">
+        <ActionSummary times="6" last="1591682568894" />
+      </entry>
+    </data>
+  </component>
+</application>
